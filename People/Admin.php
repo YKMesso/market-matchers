@@ -1,7 +1,7 @@
 <?php
 namespace People;
 
-class Admin extends User {
+class Admin extends Account {
     public int $adminID;
     public string $adminName;
 

@@ -1,6 +1,6 @@
 <?php
 namespace People;
-class Customer extends User{
+class Customer extends Account{
     public int $custID;
 
     public function __toString()
